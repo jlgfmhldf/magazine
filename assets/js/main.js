@@ -11,40 +11,40 @@ $(function(){
 		function(){
 			$(this).toggleClass('selected');
 		});
+
 	$(".video_func__like").click(
 		function(){
 			$(this).toggleClass('selected');
 		})
-});
 
 
-$(document).ready(function() {
- 
-  $("#owl-demo").owlCarousel({
- 		autoPlay: 3000,
-      navigation : true, // Show next and prev buttons
+     $("#owl-demo").owlCarousel({
+      autoPlay: 3000,
+      navigation : true, 
       slideSpeed : 300,
       paginationSpeed : 800,
       singleItem:true,
       items : 3,
-	  navigationText: true,
-	  stopOnHover: true
+      navigationText: true,
+      stopOnHover: true
  
   });
  
-});
 
-$(document).ready(function() {
- 
-  $("#owl-demo2").owlCarousel({
+   $("#owl-demo2").owlCarousel({
  
       slideSpeed : 300,
       paginationSpeed : 800,
       singleItem:true,
       items : 3,
-	  navigationText: true
+      navigationText: true,
+      mouseDrag : false,
 
  
   });
- 
+
 });
+
+
+
+

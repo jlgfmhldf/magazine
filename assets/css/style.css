@@ -613,12 +613,12 @@ p.sign_in_link .in{
 	border-radius: 1px 3px 3px 1px / 51px 3px 3px 1px;
 }
 
-.owl-prev{
+.owl-next{
 	bottom: 172px;
 	right: 0;
 	transform: rotate(180deg);
 }
-.owl-next{
+.owl-prev{
 	left: 0px;
 	bottom: 174px;
 }
